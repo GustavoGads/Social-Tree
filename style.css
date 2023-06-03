@@ -25,6 +25,8 @@ body {
 
     border: 2px solid rgb(215, 214, 214);
     padding: 4px;
+
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -44,7 +46,10 @@ body {
 
     border: 2px solid rgb(215, 214, 214);
     border-radius: 5px;
-    padding: 12px 138px;
+
+    text-align: center;
+    padding: 12px 0;
+    width: 326px;
 
     transition: all 0.3s ease-in-out;
 }
@@ -74,8 +79,8 @@ body {
     }
 
     .container a {
-        padding: 12px 115px;
-    }
+        width: 280px;
+    } 
 
     #footer img {
         width: 22px;
