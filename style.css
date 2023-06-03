@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: rgb(215, 214, 214);
 
-    background-color: rgb(30, 30, 30);
+    background-image: linear-gradient(to right, rgb(30, 30, 30), rgb(25, 33, 36));
 }
 
 #main {
@@ -45,12 +45,40 @@ body {
     border: 2px solid rgb(215, 214, 214);
     border-radius: 5px;
     padding: 12px 138px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.container a:hover {
+    background-color: rgb(215, 214, 214);
+    color: black;
+
+    
 }
 
 #footer {
     width: 225px;
     margin-top: 68px;
 
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
+}
+
+#footer a + a {
+    margin-left: 29px;
+}
+
+@media (max-width: 768px) {
+
+    #perfil {
+        width: 180px;
+    }
+
+    .container a {
+        padding: 12px 115px;
+    }
+
+    #footer img {
+        width: 22px;
+    }
+
 }
